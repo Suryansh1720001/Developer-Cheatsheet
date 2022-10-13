@@ -10,6 +10,6 @@
 4) Bring the repo in your local system
 5) Create a new branch 
 6) Now change the or add some new Cheatsheets.
-7) Commit and create a pull request
+7) Commit and create a pull request (Don't send any Plagiarized content)
 ```
 🥳🥳 and yaay!! You make your PR successfully.<br>
