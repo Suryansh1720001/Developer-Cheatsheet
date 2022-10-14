@@ -1,4 +1,4 @@
-# Developer-CheatSheets
+# Developer-CheatSheets  &nbsp;    ![](https://img.shields.io/badge/-Hacktoberfest_2022-darkred?style=flat&logo=Hacktoberfest&logoColor=white)&nbsp;
 
 ## Want to Contribute😎:
 Refer to <a href="CONTRIBUTING.md">contributing.md</a><br><br>
