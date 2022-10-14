@@ -67,3 +67,30 @@ Options:
 -W 	# Verify a archive file 
 -r 	# update or add file or directory in already existed .tar file
 ```
+
+
+## Top Networking Commands
+- Linux networking commands are widely used to analyze, maintain & troubleshoot the network(s) connected to that system
+
+```
+
+      **Command**                                                   **Functionality**
+    
+    - ping [ip_addr/hostname]                                   # check the connectivity between the 2 devices(host/server)
+    - ifconfig [options] [interface]                            # configure the kernel-resident network interfaces
+    - ip [options] OBJECT {COMMAND | help}                      # to show/manipulate routing, devices and tunnels
+    - traceroute [options] host_address [pathlength]            # displays the route a packet takes to reach destination
+    - netstat [options]                                         # monitoring incoming & outgoing network connections
+    - ss [options] [filter]                                     # used to dump socket statistics  
+    - dig [server] [name] [type]                                # retrieve information about DNS name servers
+    - nslookup [options]                                        # retrieve information from DNS name server/used to DNS lookup
+    - arp [-v] [-i if] [-H type] -a [hostname]                  # displays the ARP(Address Resolution Protocol) cache
+    - curl [options] [URL]                                      # transfer data to or from a server using various protocol
+    - wget [options] [URL]                                      # used to download files from the server without being logged on
+    - tcpdump [options] [interface]                             # capture and analyze the incoming & outgoing packets
+    - host [-aCdlriTWV] [-c class] [-N ndots] [-t type] 
+    [-W time] [-R number] [-m flag] hostname [server]           # used to find the IP address from hostname or vice-versa
+    - hostname -[options] [file]                                # obtain the DNS name and set the system's hostname/NIS domain name
+    - whois [hostname]                                          # displays who is the owner of the domain and more info
+
+```
