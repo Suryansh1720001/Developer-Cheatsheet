@@ -94,3 +94,24 @@ Options:
     - whois [hostname]                                          # displays who is the owner of the domain and more info
 
 ```
+
+
+
+## Process Commands
+- Process commands in linux are used to manage the processes running on the system. There syntaxes and descriptions are listed below.
+
+```
+	Commands 							Description
+
+-	top 								# Used to get the details of all active processes
+- 	bg 									# Send a process to the background
+-	fg 									# To bring a stopped process in the foreground & run  
+-	ps 									# List all running processes for a user with appropriate permissions
+-	ps <PID> 							# Displays the status of the process with PID <PID> 
+-	pidof 								# Returns the PID of a particular process
+-	kill <PID> 							# Kill the process with PID <PID>
+-	nice 								# Execute a process with modified scheduling priority
+-	renice 								# Modify priority of a group of processes
+-	df 									# Displays the disk space available on the filesystem with each filename's argument
+-	free [option]						# Summary of RAM usage, including total, used, free, shared & available memory and swap space
+```
