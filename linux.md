@@ -71,13 +71,21 @@ Options:
 - To compress a file , zip command is use.Similary unzip command is used to open-up the compress file. The syntax is shown below:
 
 ### Syntax
-- zip [options] [archive-file] [file or directory to be archived.
+- zip [options] [archive-file] [file or directory to be archived]
 
 ```sh
-zip myfile.zip filename.txt 
+
 
 Options:
 -m      # Deletes the original files after zipping
+```
+
+### Syntax
+- unzip [options] [archive-file] [file or directory to be archived]
+
+```sh
+-r      # Location
+```
 
 ## Top Networking Commands
 - Linux networking commands are widely used to analyze, maintain & troubleshoot the network(s) connected to that system
