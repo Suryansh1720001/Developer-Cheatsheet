@@ -16,8 +16,8 @@ Here you can find out cheatsheets of all languages and if you not finding them t
 
 ## Tech Cheatsheet List
 
-- Linux
-- Ubuntu 22.04
+- [Linux](https://github.com/Suryansh1720001/Developer-Cheatsheet/blob/master/linux.md)
+- [Ubuntu 22.04](https://github.com/Suryansh1720001/Developer-Cheatsheet/blob/master/ubuntu-22.04.md)
 - [Git-Bash Commands](https://github.com/ANSHUMANDAS1506/Developer-Cheatsheet/blob/master/GitBash_sheet.md)
 
 And yes it is an open source with a [public repository](https://github.com/Suryansh1720001/Developer-Cheatsheet)
