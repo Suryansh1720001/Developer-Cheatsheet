@@ -32,25 +32,25 @@ w                                  	# write permission (2)
 x                                  	# execute permission (1)
 chown <user>                       	# for changing the ownership of a file/directory
 chown <user>: <group> <fileName>   	# change the user as well as group for a file or directory
-chmod <mode> <filename>				# change the permissions of a file/directory
+chmod <mode> <filename>			# change the permissions of a file/directory
 
 ```
 
 ## To change directory permissions in Linux, use the following:
 ```sh
-chmod +rwx                              #filename to add permissions.
-chmod -rwx                              #directoryname to remove permissions.
-chmod +x                                #filename to allow executable permissions.
+chmod +rwx                               #filename to add permissions.
+chmod -rwx                               #directoryname to remove permissions.
+chmod +x                                 #filename to allow executable permissions.
 chmod -wx                                #filename to take out write and executable permissions.
 ```
-## tar/zip
+## tar
 - Use the tar command to compress and expand files from the command line. The syntax is shown below:
 
 ### Syntax
 - tar [options] [archive-file] [file or directory to be archived] 
 
 ```sh
-tar -zcvf foo.txt.tar.gz foo.txt	# Create a zipped archive-file
+tar -zcvf foo.txt.tar.gz foo.txt		# Create a zipped archive-file
 tar -tvf foo.txt.tar.gz				# List archive files
 tar -xvf foo.txt.tar.gz				# Extracting archive-file
 
@@ -67,7 +67,14 @@ Options:
 -W 	# Verify a archive file 
 -r 	# update or add file or directory in already existed .tar file
 ```
+## zip/unzip
+- To compress a file , zip command is use.Similary unzip command is used to open-up the compress file. The syntax is shown below:
 
+### Syntax
+- zip [options] [archive-file] [file or directory to be archived.
+
+```sh
+zip myfile.zip filename.txt
 
 ## Top Networking Commands
 - Linux networking commands are widely used to analyze, maintain & troubleshoot the network(s) connected to that system
