@@ -70,14 +70,9 @@ Options:
 ## Zip
 - To compress a file , zip command is use. The syntax is shown below:
 
-
+```sh
 ### Syntax
 - zip [options] [archive-file] [file or directory to be archived]
-
-```sh
-zip –d filename.zip file.txt
-zip –u filename.zip file.txt
-
 
 Options:
 –d      # Remove a specific file from zip
