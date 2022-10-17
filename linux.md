@@ -43,7 +43,7 @@ chmod -rwx                               #directoryname to remove permissions.
 chmod +x                                 #filename to allow executable permissions.
 chmod -wx                                #filename to take out write and executable permissions.
 ```
-## tar
+## Tar
 - Use the tar command to compress and expand files from the command line. The syntax is shown below:
 
 ### Syntax
@@ -67,24 +67,19 @@ Options:
 -W 	# Verify a archive file 
 -r 	# update or add file or directory in already existed .tar file
 ```
-## zip/unzip
-- To compress a file , zip command is use.Similary unzip command is used to open-up the compress file. The syntax is shown below:
+## Zip
+- To compress a file , zip command is use. The syntax is shown below:
 
 ### Syntax
 - zip [options] [archive-file] [file or directory to be archived]
 
 ```sh
-
-
 Options:
+–d      # Remove a specific file from zip
 -m      # Deletes the original files after zipping
-```
-
-### Syntax
-- unzip [options] [archive-file] [file or directory to be archived]
-
-```sh
--r      # Location
+-r      # recursively zip from a folder
+-u      # Add new file in zip
+-v      # Show files in zip 
 ```
 
 ## Top Networking Commands
