@@ -231,4 +231,8 @@ DROP TRIGGER trigger name;
 o	Syntax:
 SHOW TRIGGERS IN database_name;
 
+Aggregate functions:
+1) count:
+   syntax select count(*) from table_name where some_condition;
+
 
