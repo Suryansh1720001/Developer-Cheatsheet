@@ -28,7 +28,26 @@ You can download the iso file of latest version of ubuntu from here - https://ub
 | cd |	Change directory to some other location |
 | file |	View the type of any file |
 
+### To see system information
+```sh
+uname [Option]
 
+```
+| Command     | Description      | 
+| ------------- | ------------- | 
+| -a or --all | Print all information |
+| -s or --kernal-name | Print the kernel name |
+| -n or --nodename | Print the network node hostname |
+| -r or --kernal-version | Print the kernel release |
+| -v or --kernal-verison ||
+|||
+|||
+|||
+|||
+|||
+|||
+|||
+|||
 
 ### View, Create, Edit, and Delete Files and Directories
 | Command     | Description      | 
