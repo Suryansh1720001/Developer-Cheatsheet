@@ -32,6 +32,7 @@ Here you can find out cheatsheets of all languages and if you not finding them t
 And yes it is open source with a [public repository](https://github.com/Suryansh1720001/Developer-Cheatsheet)
  on GitHub.
 
+
 ## What is Hacktoberfest?
 
 It is open to everyone in our global community. Whether you’re a developer, student learning to code, event host, or company of any size, you can help drive growth of open source and make positive contributions to an ever-growing community. All backgrounds and skill levels are encouraged to complete the challenge.
@@ -56,12 +57,16 @@ You must register and make four valid pull requests (PRs) between October 1-31 (
 
 Visit the hactoberfest site for more details :- https://hacktoberfest.digitalocean.com
 
-# Contributors 👨‍👨‍👦‍👦
+
+
+## Our Amazing Contributors 👨‍👨‍👦‍👦❤️
 Thanks to all the contributors who worked for this project to stay alive! 😊😎
 
-<a href="https://github.com/Suryansh1720001/Developer-Cheatsheet/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Suryansh1720001/Developer-Cheatsheet" />
+<a align="center" href="https://github.com/Suryansh1720001/Developer-Cheatsheet/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Suryansh1720001/Developer-Cheatsheet&&max=817" />
 </a>
+
+
 
 
 
