@@ -38,16 +38,15 @@ uname [Option]
 | -a or --all | Print all information |
 | -s or --kernal-name | Print the kernel name |
 | -n or --nodename | Print the network node hostname |
-| -r or --kernal-version | Print the kernel release |
-| -v or --kernal-verison ||
-|||
-|||
-|||
-|||
-|||
-|||
-|||
-|||
+| -r or --kernal-release | Print the kernel release |
+| -v or --kernal-verison | Print the kernel version |
+| -m or --machine | Print the machine hardware name |
+| -p or --processor | Print the processor type |
+| -i or --hardware-platform | Print the hardware platform |
+| -o or --operation-platform | Print the operating system |
+| --help | Display the help and exit |
+| --version | Output version info. and exit|
+
 
 ### View, Create, Edit, and Delete Files and Directories
 | Command     | Description      | 
