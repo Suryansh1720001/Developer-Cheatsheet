@@ -24,8 +24,7 @@ SQL-Delete Table:
 To delete a table from a database, we use the DROP command.
 DROP TABLE student;
 
-
- SQL Commands
+SQL Commands
 SQL Commands are instructions that are used by the user to communicate with the database, to perform specific tasks, functions and queries of data.
 
 
@@ -203,7 +202,7 @@ SELECT  ID, NAME, AMOUNT, DATE
   ON CUSTOMERS.ID = ORDERS.CUSTOMER_ID;
 
 
- Triggers in SQL
+Triggers in SQL
 SQL codes automatically executed in response to a certain event occurring in a table of a database are called triggers. There cannot be more than 1 trigger with a similar action time and event for one table.
 
 Syntax:
@@ -232,3 +231,18 @@ o	Syntax:
 SHOW TRIGGERS IN database_name;
 
 
+View in SQL
+View is a database object created from a pre-existing table/s . View is  basically a Virtual Table created by a  query by joining one or more tables .
+
+Syntax:
+CREATE [OR REPLACE] VIEW [VIEW_Name] AS    
+SELECT [Table_columns]   
+FROM [Table_Name]   
+[WHERE conditions]; 
+
+Example:
+CREATE VIEW trainer AS    
+SELECT course_name, trainer     
+ FROM courses;  
+ 
+Here a View is created to see course_name and trainer from table courses .
