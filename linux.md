@@ -32,25 +32,42 @@ w                                  	# write permission (2)
 x                                  	# execute permission (1)
 chown <user>                       	# for changing the ownership of a file/directory
 chown <user>: <group> <fileName>   	# change the user as well as group for a file or directory
-chmod <mode> <filename>				# change the permissions of a file/directory
+chmod <mode> <filename>			# change the permissions of a file/directory
 
 ```
 
 ## To change directory permissions in Linux, use the following:
 ```sh
-chmod +rwx                              #filename to add permissions.
-chmod -rwx                              #directoryname to remove permissions.
-chmod +x                                #filename to allow executable permissions.
+chmod +rwx                               #filename to add permissions.
+chmod -rwx                               #directoryname to remove permissions.
+chmod +x                                 #filename to allow executable permissions.
 chmod -wx                                #filename to take out write and executable permissions.
 ```
-## tar/zip
+## Linux Text Editors 
+
+```sh
+1.Vi/VIM editor
+  Vim editor is one of the most used and powerful command-line based editor of the Linux system. 
+  By default, it is supported by most Linux distros. It has enhanced functionalities of the old Unix Vi editor
+
+2.Nano editor
+Nano is a straight forward editor. It is designed for both beginners and advanced users. It has many customization features.
+
+3. Gedit editor
+Gedit editor is the default editor for the GNOME desktop environment. When we open a file, it will open with the Gedit editor.
+
+4.Sublime Text
+The sublime text editor is also one of the most popular IDE-based text editors. It is used as a development environment tool more than a text editor.
+
+```
+## Tar
 - Use the tar command to compress and expand files from the command line. The syntax is shown below:
 
 ### Syntax
 - tar [options] [archive-file] [file or directory to be archived] 
 
 ```sh
-tar -zcvf foo.txt.tar.gz foo.txt	# Create a zipped archive-file
+tar -zcvf foo.txt.tar.gz foo.txt		# Create a zipped archive-file
 tar -tvf foo.txt.tar.gz				# List archive files
 tar -xvf foo.txt.tar.gz				# Extracting archive-file
 
@@ -67,7 +84,20 @@ Options:
 -W 	# Verify a archive file 
 -r 	# update or add file or directory in already existed .tar file
 ```
+## Zip
+- To compress a file , zip command is use. The syntax is shown below:
 
+```sh
+### Syntax
+- zip [options] [archive-file] [file or directory to be archived]
+
+Options:
+–d      # Remove a specific file from zip
+-m      # Deletes the original files after zipping
+-r      # recursively zip from a folder
+-u      # Add new file in zip
+-v      # Show files in zip 
+```
 
 ## Top Networking Commands
 - Linux networking commands are widely used to analyze, maintain & troubleshoot the network(s) connected to that system
@@ -114,4 +144,29 @@ Options:
 -	renice 								# Modify priority of a group of processes
 -	df 									# Displays the disk space available on the filesystem with each filename's argument
 -	free [option]						# Summary of RAM usage, including total, used, free, shared & available memory and swap space
+```
+
+## System Control Commands
+- System control commands in linux are used to manage both system and service configurations, enabling administrators to manage the OS and control the status of services. There syntaxes and descriptions are listed below.
+
+```
+	Commands 							Description
+
+-	systemctl reboot 						# Used for rebooting the server
+- 	systemctl poweroff 						# To initiate a shutdown process
+-	systemctl get-default 						# To display the current default display  
+-	systemctl set-default graphical.target 				# To change default to GUI
+-	sytemctl rescue 						# Switch to rescue mode 
+-	systemctl start {servicename} 					# To start a service
+-	systemctl stop {servicename} 					# To stop a service
+-	systemctl restart {servicename} 				# To restart a service
+-	systemctl mask {servicename} 					# Prevent a service from starting 
+-	systemctl enable {servicename} 					# Enable a service
+-	systemctl disable {servicename}					# Disable a service
+-	systemctl is-active {servicename}				# Confirm active status
+-	systemctl is-enabled {servicename}				# Confirm enabled status
+-	systemctl kill {servicename}					# Kill a service with signal 15
+-	systemctl kill -s 9 {servicename}				# To force the system to kill a service immediately
+-	systemd-analyze							# For management and analysis service
+-	systemd-analyze blame						# Display service start times
 ```
