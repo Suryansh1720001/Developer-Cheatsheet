@@ -28,6 +28,10 @@ Here you can find out cheatsheets of all languages and if you not finding them t
 - [Linux](https://github.com/Suryansh1720001/Developer-Cheatsheet/blob/master/linux.md)
 - [Ubuntu 22.04](https://github.com/Suryansh1720001/Developer-Cheatsheet/blob/master/ubuntu-22.04.md)
 - [Git-Bash Commands](https://github.com/ANSHUMANDAS1506/Developer-Cheatsheet/blob/master/GitBash_sheet.md)
+- GitBash_sheet
+- SQL Cheatsheet
+- docker
+- React-three-fibre
 
 And yes it is open source with a [public repository](https://github.com/Suryansh1720001/Developer-Cheatsheet)
  on GitHub.
