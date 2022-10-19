@@ -3,10 +3,6 @@
 ![hacktoberfest](https://user-images.githubusercontent.com/85965606/194911198-fb107c24-9742-4b91-bb20-aa02061abe2d.png)
 
 
-
-
-
-
 # What is Hacktoberfest?
 
 It is open to everyone in our global community. Whether you’re a developer, student learning to code, event host, or company of any size, you can help drive growth of open source and make positive contributions to an ever-growing community. All backgrounds and skill levels are encouraged to complete the challenge.
@@ -33,7 +29,7 @@ Visit the hactoberfest site for more details :- https://hacktoberfest.digitaloce
 
 
 
-
+```
 1) Star ⭐ the repo & follow the account @Suryansh1720001
 2) Read the readme file and generate the issue
 3) After assign the issue, fork the repo
@@ -41,5 +37,6 @@ Visit the hactoberfest site for more details :- https://hacktoberfest.digitaloce
 5) Create a new branch 
 6) Now change the or add some new Cheatsheets.
 7) Commit and create a pull request (Don't send any Plagiarized content)
+```
 
 🥳🥳 and yaay!! You make your PR successfully.<br>
