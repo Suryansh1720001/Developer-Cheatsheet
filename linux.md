@@ -99,6 +99,32 @@ Options:
 -v      # Show files in zip 
 ```
 
+### Uname
+- uname command is use to see system information.
+
+
+### Syntex
+- uname [Option]
+```sh
+$ uname -a 
+Linux dev.linuxize.com 4.19.0-6-amd64 #1 SMP Debian 4.19.67-2+deb10u1 (2019-09-20) x86_64 GNU/Linux
+
+Options:
+
+-a or --all 				# Print all information  
+-s or --kernal-name 			# Print the kernel name 
+-n or --nodename 			# Print the network node hostname  
+-r or --kernal-release 			# Print the kernel release  
+-v or --kernal-verison  		# Print the kernel version  
+-m or --machine 			# Print the machine hardware name  
+-p or --processor 			# Print the processor type  
+-i or --hardware-platform 		# Print the hardware platform  
+-o or --operation-platform 		# Print the operating system  
+--help  				# Display the help and exit  
+--version 				# Output version info. and exit
+
+```
+
 ## Top Networking Commands
 - Linux networking commands are widely used to analyze, maintain & troubleshoot the network(s) connected to that system
 
