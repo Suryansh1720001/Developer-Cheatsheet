@@ -10,7 +10,8 @@ It is open to everyone in our global community. Whether you’re a developer, st
 - Hacktoberfest is a celebration open to everyone in our global community.
 - Pull requests can be made in any GitHub-hosted repositories/projects with [hacktoberfest](https://github.com/search?q=hacktoberfest) topic added.
 - You can sign up anytime between October 1 and October 31.
-*
+
+
 # 👕 Why Should I Contribute?
 Hacktoberfest has a plain and simple moto
 > Support open source with meaningful PRs and earn a limited edition T-shirt!
@@ -20,7 +21,6 @@ Working with open source project is a rewarding experience that allows you to pr
 * making four out of (4/4) meaningful contributions to open source projects will qualify you for prizes
 * Scripts to be added in there respective folder with proper doumentaion.
 * Read GUIDELINES.md before making a PR.
-*
 
 ## IMPORTANT INSTRUCTIONS
 You must register and make four valid pull requests (PRs) between October 1-31 (in any time zone). PRs made before or after that won't be counted!!
@@ -28,6 +28,7 @@ You must register and make four valid pull requests (PRs) between October 1-31 (
 Visit the hactoberfest site for more details :- https://hacktoberfest.digitalocean.com
 
 
+# Important :
 
 ```
 1) Star ⭐ the repo & follow the account @Suryansh1720001
@@ -35,7 +36,7 @@ Visit the hactoberfest site for more details :- https://hacktoberfest.digitaloce
 3) After assign the issue, fork the repo
 4) Bring the repo in your local system
 5) Create a new branch 
-6) Now change the or add some new Cheatsheets.
+6) Now change in the existing cheatsheet or add some new Cheatsheets if required.
 7) Commit and create a pull request (Don't send any Plagiarized content)
 ```
 
