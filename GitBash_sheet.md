@@ -82,16 +82,7 @@ unstage a file while retaining the changes in the working directory
 ```bash
   git reset [file] 
 ```
-diff of what is changed but not staged
 
-```bash
-  git diff 
-```
-diff of what is staged but not committed
-
-```bash
-  git diff --staged
-```
 commit your staged content as a new commit snapshot
 
 ```bash
@@ -207,6 +198,28 @@ show any object in Git in human-readable format
 ```bash
   git show [SHA]
 ```
+
+difference between working directory and last commit
+
+```bash
+  git diff HEAD
+```
+difference between staged changes and last commit
+
+```bash
+  git diff --cached
+```
+diff of what is changed but not staged
+
+```bash
+  git diff 
+```
+diff of what is staged but not committed
+
+```bash
+  git diff --staged
+```
+
 ## TRACKING PATH CHANGES
 delete the file from project and stage the removal for commit
 
@@ -223,6 +236,7 @@ Show all commit logs with indication of any paths that moved
 ```bash
   git log --stat -M
 ```
+
 ## SHARE & UPDATE
 add a URL as an alias
 
