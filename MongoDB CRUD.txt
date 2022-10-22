@@ -1,0 +1,71 @@
+MONGO DB
+MongoDB is an open-source document database and leading NoSQL database. MongoDB is written in C++.MongoDB works on the concept of collection and document.
+Collection is a group of MongoDB Documents whereas a Document is a set of key-value pairs.
+Commands used in MongoDB are as follows:
+
+1) For Showing Databases
+
+show dbs // This command lists down all the databases
+db // Prints the current database
+
+2) Switching Databases
+
+use <database_name> 
+
+3) Show Collections
+
+show collections // Lists down all the collection present in the current database
+
+CRUD Operations in MongoDB:
+
+1) Create Operations
+
+    i) db.collection.insertOne()
+
+    ii) db.collection.insertMany()
+
+Example:
+ 
+db.customers.insertOne({ <------- Collection
+    name: "Chris", <---- Field: Value
+    age: 27,
+    address: "LA"
+})
+
+2) Read Operations
+
+    db.collection.find()
+
+Example:
+
+db.customers.find(       <------- Collection
+    {age: { $gt: 20}},   <------- Query criteria 
+    {name:1,address:1}   <-------projection
+).limit(8)               <------- Cursor Modifier
+
+3) Update Operations
+
+    i) db.collection.updateOne()
+
+    ii) db.collection.updateMany()
+
+    iii) db.collection.replaceOne()
+
+Example:
+    
+    db.customers.updateMany(  <------- Collection
+        {age: {$lt : 20}},    <------- Update Filter
+        {$set : {amount:{$eq:0}}}   <------- Update Action
+    )
+
+4) Delete Operations
+
+    i) db.collection.deleteOne()
+
+    ii) db.collection.deleteMany()
+
+Example:
+
+    db.customers.deleteMany(
+        {Amount:{$eq:0}}
+    )
