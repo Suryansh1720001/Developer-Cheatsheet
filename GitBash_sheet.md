@@ -295,3 +295,37 @@ discard the changes from top of stash stack
 ```bash
   git reset --hard [commit]
 ```
+
+## Undo Changes
+Get the previous version of a given files
+
+```bash
+  git checkout <commit> <paths> // HEAD is used implicitly if <commit> omitted
+```
+Revert certain commit by applying another one (to persist history)
+
+```bash
+  git revert <commit>
+```
+Unstage files
+
+```bash
+  git reset <paths>
+```
+Unstage all files
+
+```bash
+  git reset
+```
+Move state to specified commit
+
+```bash
+  git reset <commit>
+// --hard (to remove changes) --soft (to leave changes staged)
+```
+Set specified files to state of certain revision
+
+```bash
+  git checkout <commit> <paths>
+```
+

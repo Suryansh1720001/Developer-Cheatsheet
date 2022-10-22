@@ -65,6 +65,16 @@ uname [Option]
 |rsync|	Synchronize the changes of one directory to another |
 
 
+### Install, Update, Remove Apps and System using apt Package Manager
+| Command     | Description      | 
+| ------------- | ------------- |
+|apt-get install| Install is followed by one or more package names desired for installation or upgrading |
+|apt-get remove| Remove is used to remove a package |
+|apt-get update| Update is used to Resynchronize the package index files from their sources |
+|apt-get upgrade| Install the newest versions of all packages currently installed on the system from the sources enumerated in /etc/apt/sources.list |
+|apt‑get dist‑upgrade| Perform the function of upgrade but may also remove installed packages if that is required in order to resolve a package conflict |
+
+
 ### Community Support in ubuntu-22.04
 
 * https://ubuntu.com/support/community-support
