@@ -250,3 +250,35 @@ SELECT course_name, trainer
  FROM courses;  
  
 Here a View is created to see course_name and trainer from table courses .
+
+SQL Cursor
+
+When an MYSQL Statement is processed, a memory area is created known as context area.A cursor is 
+a pointer to that context area
+
+There are two types of cursor
+
+1. Implict cursor
+2. Explict cursor
+
+Explict Cursor
+
+Explict cursors are used when you are exceuting a SELECT statement query that will return more than one row.
+
+The cursor works in four stages
+
+1. Declaration Of Cursor
+
+DECLARE cursor_name CURSOR FOR SELECT_statement;
+
+2. Open Cursor
+
+OPEN cursor_name;
+
+3. Fetch The Cursor
+
+FETCH cursor_name INTO variables list;
+
+4. Close the Cursor
+
+CLOSE cursor_name;
