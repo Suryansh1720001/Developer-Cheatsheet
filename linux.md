@@ -1,6 +1,20 @@
 # Linux 
 Unix is now one of the most commonly used Operating systems used for various purposes such as Personal use, Servers, Smartphones, and many more. It was developed in the 1970’s at AT& T Labs by two famous personalities Dennis M. Ritchie and Ken Thompson.
 
+## Contents
+
+- [Architecture of Linux](#architecture-of-linux)
+- [Files](#files)
+- [Files Permission](#files-permission)
+- [To change directory permissions in Linux, use the following](#to-change-directory-permissions-in-linux-use-the-following)
+- [Linux Text Editors](#linux-text-editors)
+- [Tar](#tar)
+- [Zip](#zip)
+- [Top Networking Commands](#top-networking-commands)
+- [Process Commands](#process-commands)
+- [System Control Commands](#system-control-commands)
+
+
 ## Architecture of Linux
 - Kernel
 - System Library
