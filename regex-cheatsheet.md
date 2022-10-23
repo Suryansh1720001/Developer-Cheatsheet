@@ -76,7 +76,7 @@ Ranges are inclusive.
 | **+** | **)** | **\|** | **?**  |
 | **<** | **>** |        |        |
 
-The escape character is usually \
+The escape character is usually ``\``
 <br/>
 <hr>
 
