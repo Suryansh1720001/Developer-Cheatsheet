@@ -629,6 +629,7 @@ sort(v.rbegin(),v.rend()); // This will also sort the vector in a descending ord
 |#include<stdio.h>   | It is used to perform input and output operations|
 |#include<string.h>  | It is used to perform various string operations|
 |#include<math.h>    | It is used to perform mathematical operations|
+|#include<iostream.h>| It is used to  provides basic input and output services for C++ programs |
 |#include<iomanip.h> | It is used to access set() and setprecision()|
 |#include<signal.h>  | It is used to perform signal handling functions like signal() and raise()|
 |#include<stdarg.h>  | It is used to perform standard argument functions|
