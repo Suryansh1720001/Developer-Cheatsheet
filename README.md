@@ -34,6 +34,7 @@ Here you can find out cheatsheets of all languages and if you are not finding th
 - [NPM](https://github.com/Veerhan-glitch/Developer-Cheatsheet/blob/master/NPM.md)
 - [Python](https://github.com/Veerhan-glitch/Developer-Cheatsheet/blob/master/python-cheat-sheet.md)
 - [React three fibre](https://github.com/Suryansh1720001/Developer-Cheatsheet/blob/master/react-three-fibre.md)
+- [Regex Cheatsheet](https://github.com/Suryansh1720001/Developer-Cheatsheet/blob/master/regex-cheatsheet.md)
 - [SQL](https://github.com/Suryansh1720001/Developer-Cheatsheet/blob/master/SQL%20Cheatsheet)
 - [Ubuntu 22.04](https://github.com/Suryansh1720001/Developer-Cheatsheet/blob/master/ubuntu-22.04.md)
 - [TypeScript](https://github.com/ANSHUMANDAS1506/Developer-Cheatsheet/blob/master/typescript.md)
