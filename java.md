@@ -1,3 +1,22 @@
+## Contents
+
+- [HELLO WORLD](#hello-world-ghost)
+- [COMPILATION & EXECUTING JAVA CODE](#compilation-&-executing-java-code)
+- [DATA TYPES](#data-types)
+- [DECLARATION AND ASSIGNMENT STATEMENTS](#declaration-and-assignment-statements)
+- [COMPARISON OPERATORS](#comparison-operators)
+- [PRINTING](#PRINTING)
+- [PARSING COMMAND-LINE ARGUMENTS](#parsing-commandline-arguments)
+- [MATH LIBRARY](#math-library)
+- [EXAMPLES OF TYPE CONVERSION](#examples-of-type-conversion)
+- [CONDITIONAL & LOOP STATEMENT](#conditional-&-loop-statement)
+- [ARRAY](#array)
+- [ACCESS MODIFIERS](#access-modifiers)
+- [NON ACCESS MODIFIERS](#non-access-modifiers)
+- [Object Oriented Programming (OOPs) Concept](#object-oriented-programming-oops-concept-clipboard)
+- [ADVANCE DATA TYPE](#advance-data-type)
+
+
 ### HELLO WORLD :ghost:
 
 ```java

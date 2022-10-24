@@ -14,6 +14,15 @@ Open your project folder and run the follow ing command.
   npm install three @react-three/fiber
 ```
     
+ ## Contents
+
+- [Ecosystem](#ecosystem)
+- [Canvas](#canvas)
+- [Render Props](#render-props)
+- [Events](#events)
+- [Documentation](#documentation) 
+
+
 ## Ecosystem
 
 - `@react-three/gltfjsx` – GLTFs into JSX components

@@ -2,6 +2,23 @@
 
 Vim is a widely used, open-source Unix text editor. Learning to use Vim commands is a matter of practice and experience. That is why it is handy to have a helpful reference sheet while mastering them.
 
+## Contents
+
+- [Opening a file in vim](#how-to-open-a-file-in-vim)
+- Moving
+    - [By Characters, Words and Tokens](#moving-by-characters-words-and-tokens)
+    - [By Lines](#moving-by-lines)
+    - [By Screens](#moving-by-Screens)
+- [Inserting Text](#inserting-text)
+- [Editing Text](#editing-text)
+- [Cutting, Copying And Pasting](#cutting-copying-and-pasting)
+- [Marking Text (Visual Mode)](#marking-text-visual-mode)
+- [Visual Commands](#visual-commands)
+- [Search in File](sSearch-in-file)
+- [Saving and Exiting File](#saving-and-exiting-file)
+- [Enabling Vim Color Schemes](#enabling-vim-color-Schemes)
+
+
 ## How to open a file in vim
 ```vim
 $ vim <file path>

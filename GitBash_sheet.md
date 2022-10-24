@@ -6,9 +6,21 @@ updated: 2022-10-08
 ---
 # GITHUB COMMANDS SHEET
 
+## Contents
+
+- [SETUP](#setup)
+- [SETUP & INIT](#setup-&-init)
+- [STAGE & SNAPSHOT](#stage-&-snapshot)
+- [BRANCH & MERGE](#branch-&-merge)
+- [INSPECT & COMPARE](#inspect-&-compare)
+- [TRACKING PATH CHANGES](#tracking-path-changes)
+- [SHARE & UPDATE](#share-&-update)
+- [RERWITE HISTORY](#rerwite-history)
+- [TEMPORARY COMMITS](#temporary-commits)
+- [Undo Changes](#undo-changes)
+
 
 ## SETUP
-
 
 
 set a name that is identifable for credit when review version history
