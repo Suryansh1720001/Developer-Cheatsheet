@@ -6,6 +6,15 @@
 
 - Documentation - [https://docs.docker.com/](https://docs.docker.com/)
 
+## Contents
+
+- [Build](#build)
+- [Run](#run)
+- [Prune](#prune)
+- [Attributes](#attributes)
+
+
+
 ## Build
 Building an image from Dockerfile 
 ```sh

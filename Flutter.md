@@ -5,6 +5,27 @@ created: 2022-10-21
 updated: 2022-10-21
 ---
 
+## Contents
+
+- [Sample program](#sample-program)
+- [Stateless Widget](#stateless-widget)
+- [Stateful Widget](#stateful-widget)
+- [Required and default props](#required-and-default-props)
+- [Android Ink effect](android-ink-effect)
+- [Detecting Gestures](#detecting-gestures)
+- [Loading indicator](#loading-indicator)
+- [Platform specific code](#platform-specific-code)
+- [Hide status bar](#hide-status-bar)
+- [Lock orientation](#lock-orientation)
+- [Make http request](#make-http-request)
+- [Async Await](#async-await)
+- [JSON](#json)
+- [Check if dev](#check-if-dev)
+- [Navigation](#navigation)
+- [Show alert](#show-alert)
+- [Arrays](#arrays)
+
+
 ## Sample program
 
 ```html

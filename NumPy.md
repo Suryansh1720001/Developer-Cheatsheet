@@ -5,9 +5,19 @@
 import numpy as np
 ```
 
-<h2 align='center'>A.Creating Numpy Arrays</h2>
+## Contents
 
-### 1.By converting lists to np arrays
+- [Creating Numpy Arrays](#a-creating-numpy-arrays)
+    - [By converting lists to np arrays](#1-by-converting-lists-to-np-arrays)
+    - [By using Built-in Functions](#2-by-using-built-in-functions)
+- [Inserting/Deleting in numpy arrays](#b-insertingdeleting-in-numpy-arrays)
+    - [Accessing elements](#1-accessing-elements)
+    - [Modifying elements](#2-modifying-elements)
+
+
+<h2 align='center'>A. Creating Numpy Arrays</h2>
+
+### 1. By converting lists to np arrays
 
 
 ```python
@@ -167,7 +177,7 @@ print('The elements in y are of type:', y.dtype)
     The elements in y are of type: int64
 
 
-### 2.Using Built-in Functions
+### 2. By using Built-in Functions
 
 ### numpy.zeros(shape, dtype=float, order='C')
 
@@ -398,11 +408,11 @@ print('X has', (X > 0).sum(), 'positive numbers')
     X has 500123 positive numbers
 
 
-<h2 align = 'center'>B.Inserting/Deleting in numpy arrays</h2>
+<h2 align = 'center'>B. Inserting/Deleting in numpy arrays</h2>
 
 ### numpy arrays are mutable and hence can be changed after assignment
 
-### 1.Accessing elements
+### 1. Accessing elements
 
 
 ```python
@@ -418,7 +428,7 @@ print(x[-1])
     5
 
 
-### 2.Modifying Elements
+### 2. Modifying elements
 
 
 ```python

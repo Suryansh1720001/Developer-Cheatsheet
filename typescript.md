@@ -19,6 +19,17 @@ TypeScript files come with `.ts` extension. Once transpiler compiles the `.ts` f
 
 ## Cheat Sheets
 
+## Contents
+
+- [Type](#-type)
+- [Type vs Interface](#type-vs-interface)
+- [Object Literal Syntax](#object-literal-syntax)
+- [Interface](#-interface)
+- [Common Syntax](#common-syntax)
+- [Generics](#generics)
+
+
+
 ## 📄 Type
 
 ### Type vs Interface
