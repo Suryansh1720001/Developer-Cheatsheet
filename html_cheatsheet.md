@@ -251,4 +251,15 @@
 
 ```
 
+### HTML entities
 
+```html   
+
+   <p>
+     this is used to print symbol for copyright: &copy;
+   </p>
+```
+<!-- other entities:
+1]&trade - to print TM
+2]&nbsp - to print non-breaking space
+3]&apsos - to include apostrphe in a sentence-->
