@@ -211,6 +211,108 @@ class Hello extends ComponentName {
  }
 
 ```
+
+# Lists in React
+
+We used Lists in React to display data in an orderly manner.
+When we have to create lists in react we must have to include a special string attribute called as "key".
+
+We use map() function to take output of lists of React components.
+Function .map() allows us to loop over arrays of data and give use output JSX.
+
+In this code sample we are outputting a list of Fruits using the Fruit component.
+
+```sh
+function Fruit() {
+
+  const fruits = ["Mango", "Apple", "Orange"];
+  return (
+    <div>
+      {fruits.map((fruitName) => (
+        <Fruit key={fruitName} name={fruitName} />
+      ))}
+    </div>
+  );
+ }
+  ```
+
+ # React Context
+ Method that is used to pass props from parent to child component just by storing that props in a store and then use that props from the store by child component called React Context . We are passing props only manually not actually at each level of the component tree.
+
+When we have to use `Context`, we can import the `createContext` function from React.This context includes a `Provider` and a `Consumer` property.
+ 
+ ```sh
+import { createContext } from 'react';
+const AgeContext = createContext('');
+function App() {
+  return (
+    <AgeContext.Provider value="Twenty">
+      <Body />
+    <AgeContext.Provider>
+  );
+} 
+
+function Body() {
+  return <Info />;
+} 
+
+function Info() {
+  return (
+    <AgeContext.Consumer>
+      {age => <h1>Age is {age}</h1>}
+    </AgeContext.Consumer>
+  );
+}
+ 
+ ```
+
+ # React Hooks
+We use React Hooks to be able to use all the features that were previously only available in class components of React.
+Additionally, we can also create our own custom hooks in React Hook for our custom functionality.
+Many React hooks were added to the core React library as well. We are going to cover the 
+
+Majorly 6 essential hooks that we should know atleast:
+
+1.useState
+2.useEffect
+3.useRef
+4.useContext
+5.useCallback
+6.useMemo
+
+
+# Local state: useState
+
+Declare the state
+```sh
+const [name, setName] = useState("initial value")
+```
+
+Update the state
+```sh
+setName("new value ")
+```
+
+Lazy-initialize the state
+```sh
+const [value, setValue] = useState(
+( ) => computevalue( )
+)
+```
+
+A very understandable example of using `useState` is to increment a counter.
+
+```sh
+import { useState } from 'react';
+function MyCounter() {
+  const [count, setCount] = useState(0);
+  function updateMyCount() {
+    setCount(count + 1);
+  }
+  return <button onClick={updateMyCount}>Count is: {count}</button>;
+}
+```
+
 # Follow for more
 ## Playlist
 * [Here](https://www.youtube.com/watch?v=-mJFZp84TIY&list=PLu0W_9lII9agx66oZnT6IyhcMIbUMNMdt)
