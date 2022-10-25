@@ -1,0 +1,99 @@
+Visual Studio Cheat-Sheet
+
+General
+Ctrl+Shift+P, F1: Show Command Palette
+ Ctrl+P: Quick Open, Go to File
+- Ctrl+Shift+N: New window/instance
+- Ctrl+W: Close window/instance
+- Ctrl+,: User Settings
+- Ctrl+K, Ctrl+S: Keyboard Shortcuts
+
+
+Basic editing
+- Ctrl+X: Cut line (empty selection)
+- Ctrl+C: Copy line (empty selection)
+- Ctrl+↓/↑: Move line down / up
+- Ctrl+Shift+K: Delete line
+- Ctrl+Enter / Ctrl+Shift+Enter: Insert line below / above
+- Ctrl+Shift+\: Jump to matching bracket
+- Ctrl+] / Ctrl+[: Indent / Outdent line
+- Ctrl+Home / End: Go to beginning / end of file
+- Ctrl+↑ / ↓: Scroll line up / down
+- Alt+PgUp / PgDn: Scroll page up / down
+- Ctrl+Shift+[ / ]: Fold / unfold region
+- Ctrl+K, Ctrl+[ / ]: Fold / unfold all subregions
+- Ctrl+K, Ctrl+0 / Ctrl+K, Ctrl+J: Fold /Unfold all regions
+- Ctrl+K, Ctrl+C: Add line comment
+- Ctrl+K, Ctrl+U: Remove line comment
+- Ctrl+/: Toggle line comment
+- Ctrl+Shift+A: Toggle block comment
+- Alt+Z: Toggle word wrap
+
+
+                                                                          Useful Extensions
+
+HTML & CSS
+- CSScomb: Coding style formatter for CSS, Less, SCSS and Saas.
+- Puglint: Linter and style checker for pug.
+- Sass: Indented Sass syntax highlighting, autocomplete & snippets.
+- SCSS IntelliSense: Advanced autocompletion and refactoring support for SCSS.
+- XML Format: Format XML documents.
+
+JavaScript, Node & NPM
+- Import Cost: This extension will display inline in the editor the size of the
+imported package.
+- ESLint: Integrates ESLint into VS Code
+- NPM: NPM support for VS Code.
+- NPM Intellisense: Visual Studio Code plugin that autocompletes NPM modules in import  statements.
+- Version Lens: Shows the latest version for each package using code lens.
+- Vetur: Vue tooling for VS Code.
+
+PHP
+- Better PHPUnit: A better PHPUnit test runner.
+- Laravel Artisan: Laravel Artisan commands within Visual Studio Code.
+- PHP CS Fixer: PHP CS Fixer extension for VS Code, php formatter, php code beautify tool.
+- PHP Doc Comment VSCode Plugin: Add phpdoc @param and @return tag for selected function signatures.
+- PHP IntelliSense: Advanced Autocompletion and Refactoring support for PHP.
+
+Perl
+- Perl: Code intelligence for the Perl language.
+- Perl Toolbox: Perl Toolbox for linting and syntax checking for Perl.
+- Perl Moose: Perl Moose syntax highlight support for Visual Studio Code.
+
+Git
+- Git History: View git log, file history, compare branches or commits.
+- Gitignore: An extension for Visual Studio Code that assists you in working with
+.gitignore files.
+- GitLens: Visualize code authorship, code lens, seamlessly Git blame annotations
+and more.
+- Gitmoji: An emoji tool for your git commit messages.
+Themes
+- Material Icon Theme: Material Design Icons for Visual Studio Code.
+- Palenight Theme: An elegant and juicy material-like theme for Visual Studio
+Code.
+- Office Theme A Microsoft Office theme for Visual Studio Code.
+
+Handy
+- Better comments: Improve your code commenting by annotating with alert,
+informational, TODOs, and more!
+- Debugger for Chrome: Debug your JavaScript code in the Chrome browser.
+- EditorConfig for VS Code: EditorConfig Support for Visual Studio Code.
+- File Utils: A convenient way of creating, duplicating, moving, renaming and
+deleting files and directories.
+- Final-Newline: Inserts a final newline when saving the document.
+- Formatting Toggle: A VS Code extension that allows you to toggle the formatter
+(Prettier, Beautify, …) ON and OFF with a simple click.
+- Open in Github/Bitbucket...: Jump to a source code line in Github / Bitbucket,
+Gitlab, VisualStudio.com
+- OpenChrome: Open file with Chrome.
+- Output Colorizer: Syntax Highlighting for log files.
+- Prettier - Code formatter: VS Code plugin for prettier/prettier.
+- Project Manager: Easily switch between projects.
+- REST Client: REST Client for Visual Studio Code.
+- SVG Viewer: SVG Viewer for Visual Studio Code.
+- Terminal: Terminal for Visual Studio Code.
+- Vue Peek: Allows peek and goto definition for Vue single-file components.
+- VS Live Share: Real-time collaborative development from the comfort of your
+favorite tools.
+- Wrap Console Log: Wrap to console.log by word or selection.
+- Bracket Pair Colorizer: Allows matching brackets to be identified with colours.
