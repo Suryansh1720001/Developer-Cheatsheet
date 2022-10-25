@@ -175,6 +175,10 @@ Example:
 Select * from Customers Natural JOIN Orders;
 In the above example, we are merging the Customers and Orders table shown above using a NATURAL JOIN based on the common column customer_id.
 
+Shortcut:
+Select * from Customers , Orders;
+-- join using ',' operator
+
 3.	RIGHT JOIN: Returns all of the records from the second table, along with any matching records from the first.
 
      SELECT Orders.OrderID, Employees.LastName, Employees.FirstName
