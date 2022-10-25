@@ -236,7 +236,19 @@ SHOW TRIGGERS IN database_name;
 
 Aggregate functions:
 1) count:
-   syntax select count(*) from table_name where some_condition;
+   syntax- select count(*) from table_name where some_condition;
+
+2) sum:
+   syntax- select sum(cost) from table_name where some_condition;
+
+3) avg:
+   syntax- select avg(cost) from table_name;
+
+4) min:
+   syntax- select min(cost) from table_name;
+
+5) max:
+    syntax- select max(cost) from table_name;
 
 
 View in SQL
