@@ -175,6 +175,10 @@ Example:
 Select * from Customers Natural JOIN Orders;
 In the above example, we are merging the Customers and Orders table shown above using a NATURAL JOIN based on the common column customer_id.
 
+Shortcut:
+Select * from Customers , Orders;
+-- join using ',' operator
+
 3.	RIGHT JOIN: Returns all of the records from the second table, along with any matching records from the first.
 
      SELECT Orders.OrderID, Employees.LastName, Employees.FirstName
@@ -232,7 +236,19 @@ SHOW TRIGGERS IN database_name;
 
 Aggregate functions:
 1) count:
-   syntax select count(*) from table_name where some_condition;
+   syntax- select count(*) from table_name where some_condition;
+
+2) sum:
+   syntax- select sum(cost) from table_name where some_condition;
+
+3) avg:
+   syntax- select avg(cost) from table_name;
+
+4) min:
+   syntax- select min(cost) from table_name;
+
+5) max:
+    syntax- select max(cost) from table_name;
 
 
 View in SQL
