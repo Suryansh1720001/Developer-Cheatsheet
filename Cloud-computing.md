@@ -1,4 +1,4 @@
-                                                                           <b>Virtual Machines<b>
+                                                                           Virtual Machines
                                                                            
                                                                            
 CTRL-b	Power on
