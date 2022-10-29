@@ -59,6 +59,9 @@ Gedit editor is the default editor for the GNOME desktop environment. When we op
 4.Sublime Text
 The sublime text editor is also one of the most popular IDE-based text editors. It is used as a development environment tool more than a text editor.
 
+5. Kate/Kwrite
+Kate/Kwrite is the default text editor in KDE desktop environment. When we open a text file, it will open with Kate text editor.
+
 ```
 ## Tar
 - Use the tar command to compress and expand files from the command line. The syntax is shown below:
