@@ -24,6 +24,10 @@ A tree like structure of html which can be manipulated through javascript
 
 Add **Script Tag** in body of the HTML document 
 
+```
+<script src="filename.js"></script>
+```
+
 > Javascript programs run in the console section of the website
 
 ### Syntax to print 
@@ -32,9 +36,9 @@ Add **Script Tag** in body of the HTML document
 
 ### Variables
 
-Temporary memorary location to store data
+Temporary memorary location to store data or a container that holds a value
 
-To create a variable in JavaScript, use the ***let*** keyword.
+To create a variable in JavaScript, use the ***let***,***var***, and ***const*** keyword follow by the variable name
 
 **SYNTAX :** let variableName;
 
@@ -42,17 +46,29 @@ To create a variable in JavaScript, use the ***let*** keyword.
 
 ### Constant Variable 
 
-A variavle whose value can't be changed.
+A variable whose value can't be changed.
 
 ### Data Types
 
 #### 1. Number 
+
+
 let num = 123;
+let name = 45
+
 
 #### 2. String
+
+A string is a sequence of one or more characters that may consist of letters, numbers, or symbols. Strings in JavaScript are primitive data types and immutable, which means they are unchanging
+
+They are wrapped with double quotes(" ") or single quote (' ')
+
+
 let num = "user";
+let name = 'hello world'
 
 #### 3. Bigint
+
 let num = 10n;
 
 #### 4. undefined
@@ -65,6 +81,7 @@ It’s just a special value which represents “nothing”, “empty” or “va
 
 #### 6. Boolean
 let num = True;
+let alpha = false
 
 #### 7. Symbol
 The purpose of symbols is to create unique property keys that are guaranteed not to clash with keys from other code
@@ -103,7 +120,7 @@ The purpose of symbols is to create unique property keys that are guaranteed not
 
 ####  Logical 
 
-**&& :** Logicl AND.
+**&& :** Logical AND.
 
 **|| :**Logical OR.
 
@@ -112,6 +129,7 @@ The purpose of symbols is to create unique property keys that are guaranteed not
 **? : -** condition ? expressionIfTrue : expressionIfFalse
 
 ### Loops
+
 
 ### While 
 An entry control loop , it checks condition at entry time
@@ -197,12 +215,13 @@ The result is true if OK is pressed and false otherwise
 **SYNTAX :** 
 result = confirm(question);
 
+
 ### Arrays
 - Collection of elements of same type.
 - Store multiple values at one place.
 
 **SYNTAX :** 
-let variablenme = ["","",""];
+let variablename = ["","",""];
 
 **To Access Arrays:**
 variableName[indexNumber];
@@ -212,7 +231,7 @@ variableName[indexNumber];
 DOM stands for Document Object Model. It is a programming interface that allows us to create, change, or remove elements from a website document. DOM manipulation is when you use JavaScript to add, remove, and modify elements of a website
 
 ### Event Handling
-Intraction with the webpage by clicking on the webpage or moving the cursor.And after interaction the change happen is called **Events**
+Interaction with the webpage by clicking on the webpage or moving the cursor.And after interaction the change happen is called **Events**
 
 ``By which we perform these events or interactions like buttons or any key structure they are called ***Event Handlers***``
 
