@@ -24,17 +24,19 @@ Unix is now one of the most commonly used Operating systems used for various pur
 
 ## Files
 ```sh
-ls               # list all files
-ls -al           # lists hidden files
-cd <path>        # change directory to path
-cd               # change to home
-pwd              # shows current directory
-mkdir <dirName>  # create a new directory with given name
-cat <fileName>   # displays the file content
-cat > <fileName> # creates a new file
-rm <fileName>    # removes file with given name
-du -sh *         # list directories with their total sizes 
-df -h            # to see free disk space
+ls                        # list all files
+ls -al                    # lists hidden files
+cd <path>                 # change directory to path
+cd                        # change to home
+pwd                       # shows current directory
+mkdir <dirName>           # create a new directory with given name
+cat <fileName>            # displays the file content
+cat > <fileName>          # creates a new file
+rm <fileName>             # removes file with given name
+du -sh *                  # list directories with their total sizes 
+df -h                     # to see free disk space
+mv <dirname>              # to move files and directories
+mv <old_name> <new_name>  # to rename files and directories
 
 ```
 
@@ -73,6 +75,9 @@ Gedit editor is the default editor for the GNOME desktop environment. When we op
 4.Sublime Text
 The sublime text editor is also one of the most popular IDE-based text editors. It is used as a development environment tool more than a text editor.
 
+5. Kate/Kwrite
+Kate/Kwrite is the default text editor in KDE desktop environment. When we open a text file, it will open with Kate text editor.
+
 ```
 ## Tar
 - Use the tar command to compress and expand files from the command line. The syntax is shown below:
@@ -84,6 +89,8 @@ The sublime text editor is also one of the most popular IDE-based text editors. 
 tar -zcvf foo.txt.tar.gz foo.txt		# Create a zipped archive-file
 tar -tvf foo.txt.tar.gz				# List archive files
 tar -xvf foo.txt.tar.gz				# Extracting archive-file
+tar -rvf foo.txt.tar.gz	foo.txt			# Add file to existing archive file
+
 
 Options:
 -c 	# Creates Archive 
