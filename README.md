@@ -30,9 +30,8 @@
 - Refer to <a href="CONTRIBUTING.md">Contributing Guide</a><br>
 - Don't forget to follow [@Suryansh1720001](https://github.com/Suryansh1720001) ⭐😊
 
-## Enhance your knowledge from these cheat sheets,this is an open-source platform where you can find cheat sheets related to all dev-knowledge.
 
-Here you can find out cheatsheets of all languages and if you are not finding them, then please wait for some time. It'll surely help you a lot.
+## Here you can find out cheatsheets of all languages and if you are not finding them, then please wait for some time. It'll surely help you a lot.
 
 ## 📃 Tech Cheatsheet List
 
