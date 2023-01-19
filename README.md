@@ -8,7 +8,6 @@
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/for-you.svg)](https://forthebadge.com)
 
-![https://img.shields.io/badge/-Hacktoberfest_2022-darkred?style=flat&logo=Hacktoberfest&logoColor=white](https://img.shields.io/badge/Hacktoberfest-2022-red)&nbsp;
 
 ## Want to Contribute😎:
 - Refer to <a href="CONTRIBUTING.md">Contributing Guide</a><br>
@@ -42,6 +41,10 @@ Here you can find out cheatsheets of all languages and if you are not finding th
 
 And yes it is open source with a [public repository](https://github.com/Suryansh1720001/Developer-Cheatsheet)
  on GitHub.
+
+## 🥂 Past Participation of this Repo 
+![https://img.shields.io/badge/-Hacktoberfest_2022-darkred?style=flat&logo=Hacktoberfest&logoColor=white](https://img.shields.io/badge/Hacktoberfest-2022-red)&nbsp;
+
 
 
 ## Our Amazing Contributors 👨‍👨‍👦‍👦❤️
