@@ -34,7 +34,7 @@
 
 Here you can find out cheatsheets of all languages and if you are not finding them, then please wait for some time. It'll surely help you a lot.
 
-## Tech Cheatsheet List📃
+## 📃 Tech Cheatsheet List
 
 - [Bash](https://github.com/Veerhan-glitch/Developer-Cheatsheet/blob/master/bash_cheatsheet.md)
 - [Django](https://github.com/Veerhan-glitch/Developer-Cheatsheet/blob/master/django%20cheat%20sheet.pdf)
