@@ -4,9 +4,10 @@
 [![GitHub forks](https://img.shields.io/github/forks/Suryansh1720001/Developer-Cheatsheet?style=for-the-badge&logo=appveyor)](https://github.com/Suryansh1720001/Developer-Cheatsheet/network)
 [![GitHub stars](https://img.shields.io/github/stars/Suryansh1720001/Developer-Cheatsheet?style=for-the-badge&logo=appveyor)](https://github.com/Suryansh1720001/Developer-Cheatsheet/stargazers)
 
-[![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/for-you.svg)](https://forthebadge.com)
+
+#### Enhance your knowledge from these cheat sheets, this is an open-source platform where you can find cheat sheets related to all dev-knowledge.
+
+
 
 <br>
 
@@ -16,6 +17,14 @@
 | :----------: | 
 |<a href="https://github.com/Suryansh1720001"><img src="https://avatars.githubusercontent.com/Suryansh1720001" width=150px height=150px /></a><br>Suryansh Prajapati<br><a href="https://www.linkedin.com/in/itssuryansh/"><img src="https://t0.gstatic.com/images?q=tbn:ANd9GcRMCA3j2A8hfLl9p5UAU5nd9lvqLlNZvqoU4xOsZ192uH4IYS6X" width="32px" height="32px"></a> |
 <br>
+
+
+[![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/for-you.svg)](https://forthebadge.com)
+
+<br>
+
 
 ## Want to Contribute😎:
 - Refer to <a href="CONTRIBUTING.md">Contributing Guide</a><br>
@@ -54,14 +63,15 @@ And yes it is open source with a [public repository](https://github.com/Suryansh
 ![https://img.shields.io/badge/-Hacktoberfest_2022-darkred?style=flat&logo=Hacktoberfest&logoColor=white](https://img.shields.io/badge/Hacktoberfest-2022-red)&nbsp;
 
 
-
 ## Our Amazing Contributors 👨‍👨‍👦‍👦❤️
 Thanks to all the contributors who worked for this project to stay alive! 😊😎
 
-<a align="center" href="https://github.com/Suryansh1720001/Developer-Cheatsheet/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Suryansh1720001/Developer-Cheatsheet&&max=817" />
-</a>
 
+
+
+<a align="center" href="https://github.com/Suryansh1720001/Developer-Cheatsheet/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Suryansh1720001/Developer-Cheatsheet&&max=817" />  
+</a>
 
 
 
