@@ -8,6 +8,14 @@
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/for-you.svg)](https://forthebadge.com)
 
+<br>
+
+## 🧑‍💻 About the Maintainer
+
+| Maintainer   | 
+| :----------: | 
+|<a href="https://github.com/Suryansh1720001"><img src="https://avatars.githubusercontent.com/Suryansh1720001" width=150px height=150px /></a><br>Suryansh Prajapati<br><a href="https://www.linkedin.com/in/itssuryansh/"><img src="https://t0.gstatic.com/images?q=tbn:ANd9GcRMCA3j2A8hfLl9p5UAU5nd9lvqLlNZvqoU4xOsZ192uH4IYS6X" width="32px" height="32px"></a> |
+<br>
 
 ## Want to Contribute😎:
 - Refer to <a href="CONTRIBUTING.md">Contributing Guide</a><br>
